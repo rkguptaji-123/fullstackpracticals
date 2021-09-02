@@ -1,0 +1,156 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    }
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.header
+{
+    width: 90vw;
+    height: 8vh;
+    background-color: gray;
+    text-align: center;
+     
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.space
+{
+    
+   width: 90vw;
+    height: 2vh;
+    background-color:white;
+    text-align: center;
+     
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     color: white;
+    /* border-left:1px solid black;
+    border-right: 1px solid black; */ 
+    overflow: hidden;
+}
+.banner
+{
+    
+    width: 90vw;
+    height: 15vh;
+    background-color:skyblue;
+    text-align: center;
+     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sec1
+{
+    
+    width: 90vw;
+    height: 20vh;
+    text-align: center;    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.outerdot
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.dot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    width: 15vw;
+    background-color: orange;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+   }
+   .sec2
+   {
+
+       height: 27vh;
+       width: 90vw;
+       
+   }
+.Article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.Article1
+{
+    margin-top: 1px;
+    background-color:orange;
+     height: 6vh;
+     width: 45vw;
+     margin-bottom:10px ;
+}
+.Article2
+{
+    background-color:orange;
+     height: 6vh;
+     width: 45vw;
+     margin-bottom: 10px;     
+}
+.Article3
+{
+    background-color:orange;
+     height: 6vh;
+     width: 45vw;
+     margin-bottom: 0px;
+}
+.sec3
+{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   height: 25vh;
+   width: 90vw;
+}
+.last
+{
+margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 21vh;
+    width: 90vw;
+
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:red;
+    height: 20vh;
+    width: 20vw;
+   margin-right: 10px;
+}

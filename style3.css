@@ -1,0 +1,122 @@
+body
+{
+padding: 0;
+margin: 0;
+overflow: scroll;
+ background-color:lightgreen;
+}
+#navbar
+{
+    
+    position: fixed;
+    top: 0;
+    width: 97.8%;
+    padding-top: 0px;
+    color: white;
+    background-color:royalblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   height: 5vh;
+   margin-left: 15px;
+   margin-right:25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+       
+}
+a:hover
+{
+    background-color : darkslategray;
+    
+}
+.space
+{
+    height: 4vh;
+    margin-left: 15px;
+    margin-right: 15px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.mainbody
+{
+background-image: url(mainbodyimage.jpeg);
+  padding-top: 0px;
+    margin-top: 0px;
+    height: 86vh;
+    
+    margin-left: 15px;
+   margin-right: 15px;
+   background-color: gray;
+}
+#team
+{
+    margin-top: 25px;
+border: 1px solid black;
+   padding-top: 15px;  
+height: 50vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-around;
+      margin-left: 15px;
+      margin-right: 15px;
+}
+.imageslist
+{
+    border: 1px solid black;
+   padding-top: 15px;  
+height: 30vh;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-around;
+      margin-left: 15px;
+      margin-right: 15px;
+
+}
+#aboutus
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+       
+}
+#container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+}
+.first,.second,.Third,.fourth
+{
+    width: 25vw;
+    height: 85vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: wheat;
+    text-align: center;
+    overflow: hidden;
+    font-size: small;
+    
+}
+
+.button
+{
+    border-radius: 10px;
+    
+    background-color:gray;
+}
